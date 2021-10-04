@@ -5,9 +5,9 @@ echo "*** Building image ***"
 echo "######################"
 
 #cd jenkins/lumen/build/ && docker-compose build --no-cache
-# whoami
+whoami
 #cat $PATH_DOCKER_COMPOSE
 
 # ls /usr/local/bin
 # cat docker-compose.yml
-sudo ocker-compose build --no-cache
+/usr/local/bin/docker-compose build --no-cache
